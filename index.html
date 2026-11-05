@@ -49,6 +49,13 @@
   .wrap_main .section_1 .item_1 { background-image: url('assets/img/site/main_1.jpg'); }
   .wrap_main .section_1 .item_2 { background-image: url('assets/img/site/main_2.jpg'); }
   .wrap_main .section_1 .item_3 { background-image: url('assets/img/site/main_3.jpg'); }
+
+  /* 2026.11 리프레시: 제목 위 태그 · 제목 그라데이션 · 파란 버튼 */
+  #KBPFwrap .wrap_main .section_1 .tit_set .eyebrow { display: flex; width: fit-content; align-items: center; gap: 8px; margin: 26px 0 22px; padding: 6px 14px; border: 1px solid rgba(120,190,255,.35); border-radius: 999px; background: rgba(14,91,216,.18); color: #bfe0ff; font: 600 13px/1 "Montserrat", sans-serif; letter-spacing: .08em; }
+  #KBPFwrap .wrap_main .section_1 .tit_set .eyebrow i { width: 7px; height: 7px; border-radius: 50%; background: #46e0ff; box-shadow: 0 0 10px #46e0ff; animation: eyebrowPulse 1.8s ease-in-out infinite; }
+  @keyframes eyebrowPulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  #KBPFwrap .wrap_main .section_1 .tit_set .tit { display: inline-block; background: linear-gradient(90deg, #ffffff 0%, #ffffff 20%, #5b9dff 60%, #22d3ff 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  #KBPFwrap .wrap_main .section_1 .btn_introduce { background: linear-gradient(90deg, #0e5bd8, #2f8cff); border-color: transparent; color: #fff; box-shadow: 0 8px 30px rgba(14,91,216,.45); }
 </style>
 </head>
 <body>
@@ -102,6 +109,7 @@
           <span class="num_2 layout_total">3</span>
           <button type="button" class="control_btn"></button>
         </div>
+        <div class="eyebrow"><i></i>AI × BLOCKCHAIN · 2026</div>
         <h2 class="tit">한국 AIB 성장 포럼</h2>
         <p class="txt">
           <span class="line"><span>AI의 신뢰성·안전성과</span></span>
