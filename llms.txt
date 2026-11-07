@@ -43,3 +43,4 @@
 - [주요 사업](https://kaibgf.kr/business/): 연구, 시장 분석·정책 수립, 대외 활동
 - [가입 안내](https://kaibgf.kr/join/): 회원 종류와 자격, 가입 절차
 - [오시는 길](https://kaibgf.kr/contact/): 주소와 연락처
+- [자주 묻는 질문](https://kaibgf.kr/faq/): 단체 소개, 연혁, 사업, 회원 자격과 가입 절차, 연회비, 임원, 연락처에 대한 질문과 답
